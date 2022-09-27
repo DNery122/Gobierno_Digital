@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="HOLA MUNDO DESDE VUE JAJA XD"/>
+  <PokeLista />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PokeLista from './components/PokeLista.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PokeLista
   }
 }
 </script>
