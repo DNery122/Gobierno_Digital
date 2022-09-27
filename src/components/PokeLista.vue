@@ -1,7 +1,17 @@
 <template>
-    <div>
-        <h1>HOLA MUNDO</h1>
-    </div>
+   
+   <header class = "header">
+<label for="pokemonInput">Tipo de pokemon nombre o ID: </label>
+    <input type="text" id="pokemonInput">
+
+
+<ol>
+    <li v-for="todo in todos" :key = 'todo.id'>
+    {{todo.name}}
+    </li>
+</ol>
+
+   </header>
 </template>
 
 <script>
